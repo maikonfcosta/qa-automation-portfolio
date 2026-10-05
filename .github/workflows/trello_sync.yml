@@ -2,8 +2,8 @@ name: Trello Bugs to GitHub Issues Sync
 
 on:
   schedule:
-    # Roda a cada 10 minutos
-    - cron: '*/10 * * * *'
+    # Roda toda segunda-feira às 09:00 UTC (06:00 de Brasília)
+    - cron: '0 9 * * 1'
   workflow_dispatch:
     # Permite rodar manualmente clicando em um botão no GitHub
 
